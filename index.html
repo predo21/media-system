@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+
+</head>
+
+<style>
+    body {
+        background-color: #ced3c2;
+    }
+    
+    form {
+        background-color: rgb(255, 255, 255);
+        max-width: 170px;
+        width: 70%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 25px;
+        transform: translate(-50%, -50%);
+    }
+    
+    form h3 {
+        text-align: center;
+        color: #252525;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    form h5 {
+        text-align: center;
+        color: #5A5A5A;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    form input {
+        width: 70%;
+        padding: 5px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+
+    <form>
+
+        <center>
+            <h3>ATIVIDADE</h3>
+
+            <h5> Digite as notas a baixo</h5>
+
+            <input type="number" id="num1" placeholder="Nota 1 " min="0" max="10"><br>
+            <br> <input type="number" id="num2" placeholder="Nota 2 " min="0" max="10"><br>
+            <br> <input type="number" id="num3" placeholder="Nota 3 " min="0" max="10"><br>
+            <br> <input type="number" id="num4" placeholder="Nota 4 " min="0" max="10"><br>
+
+            <br> <input type="submit" value="Enviar" onclick="media()">
+
+
+            <script src="script.js"></script>
+
+        </center>
+    </form>
+</body>
+
+
+</html>
